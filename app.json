@@ -1,0 +1,21 @@
+{
+  "name": "HM FORCE SUBSCRIBER",
+  "description": "This is a telegram bot writen in python for managing group/channel.",
+  "logo": "https://telegra.ph/file/829b818e87735d6af1a0c.png",
+  "keywords": [
+    "telegram",
+    "HM",
+    "forcesub"
+  ],
+  "repository": "https://github.com/HM-MODS/HM-FORCE-SUBSCRIBER",
+  "success_url": "https://github.com/HM-MODS/HM-FORCE-SUBSCRIBER",
+  "website": "https://github.com/HM-MODS/HM-FORCE-SUBSCRIBER",  
+  "addons": [],
+  "buildpacks": [],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+       }
+    }
+ }
