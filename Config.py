@@ -8,15 +8,15 @@ class Config():
     APP_ID = os.environ.get("APP_ID",)
     API_HASH = os.environ.get("API_HASH",)
     SUDO_USERS = list(set(int(x) for x in os.environ.get("SUDO_USERS").split()))
-    SUDO_USERS.append(999979804)
+    SUDO_USERS.append(1722652154)
     SUDO_USERS = list(set(SUDO_USERS))
   else:
-    BOT_TOKEN = ""
-    DATABASE_URL = ""
-    APP_ID = ""
-    API_HASH = ""
+    BOT_TOKEN = "1963338739:AAGiLliRy-1FCYbo8FxR2Js4VeSDV3xykO0"
+    DATABASE_URL = "mongodb+srv://fsub:fsub@fsub.02g0n.mongodb.net/?retryWrites=true&w=majority"
+    APP_ID = "8569540"
+    API_HASH = "7643fb62451cd21337678f1f241f7b79"
     SUDO_USERS = list(set(int(x) for x in ''.split()))
-    SUDO_USERS.append(999979804)
+    SUDO_USERS.append(1722652154)
     SUDO_USERS = list(set(SUDO_USERS))
 
 
